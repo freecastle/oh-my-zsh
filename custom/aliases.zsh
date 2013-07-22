@@ -6,6 +6,8 @@ alias mv='mv -i'
 alias date-iso-utc='date -u +"%Y-%m-%dT%H:%M:%SZ"'
 alias date-iso-offset='date +"%Y-%m-%dT%H:%M:%S%z"'
 
+alias portscan='sudo lsof -i -P | grep LISTEN'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
